@@ -4,11 +4,11 @@ var generateBtn = document.querySelector("#generate");
 
 // Functions to generate characters for password
 function getRandomNum() {
-
+  return String.fromCharCode(Math.floor(Math.random() * 10) + 48)
 }
 
 function getRandomUpper() {
-  
+  return String.fromCharCode(Math.floor(Math.random() * 26) + 65)
 }
 
 function getRandomLower() {
@@ -16,11 +16,14 @@ function getRandomLower() {
 }
 
 function getRandomSpecial() {
-
+  const special = '!@#$%^&*(){}[]=<>/,.';
+  return special[(Math.floor(Math.random() * special.length))]
 }
 
 console.log(getRandomLower())
-
+console.log(getRandomUpper())
+console.log(getRandomNum())
+console.log(getRandomSpecial())
 
 
 
