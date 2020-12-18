@@ -12,7 +12,7 @@ This is a random password generator that generates a password based on user inpu
 3. User is asked to confirm whether they'd like their password to contain uppercase letters, lowercase letters numbers, and special characters.
 
 4. Password is generated and displayed on page based on critrea chosen.
-[screenshot of generated password](assets/generatedPW.JPG)
+![screenshot of generated password](assets/generatedPW.JPG)
 
 ## GIF of application in action
 ![gif of working application](assets/deployedpassgen.gif)
