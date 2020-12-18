@@ -9,26 +9,6 @@ const special = "!#$%&'()*+,-./:;<=>?@[\]^_`{|}~";
 // Add event listener to generate button
 generateBtn.addEventListener("click", generatePassword);
 
-
-// Functions to generate characters for password
-// function getRandomNum() {
-//   return String.fromCharCode(Math.floor(Math.random() * 10) + 48)
-// }
-
-// function getRandomUpper() {
-//   return String.fromCharCode(Math.floor(Math.random() * 26) + 65)
-// }
-
-// function getRandomLower() {
-//   return String.fromCharCode(Math.floor(Math.random() * 26) + 97)
-// }
-
-// function getRandomSpecial() {
-//   const special = '!@#$%^&*(){}[]=<>/,.';
-//   return special[(Math.floor(Math.random() * special.length))]
-// }
-
-
 // Begin generate password function
 function generatePassword() {
 
@@ -70,7 +50,5 @@ if (charNum >= 8 && charNum <= 128){
   let newPasswordStr = localStorage.getItem("password");
   passwordTextArea.textContent = newPasswordStr;
 }
-console.log(passwordSet)
 }
-
 
