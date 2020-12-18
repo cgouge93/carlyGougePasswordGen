@@ -15,5 +15,5 @@ This is a random password generator that generates a password based on user inpu
 [screenshot of generated password](assets/generatedPW.JPG)
 
 ## GIF of application in action
-[gif of working application](assets/deployedpassgen.gif)
+![gif of working application](assets/deployedpassgen.gif)
 
