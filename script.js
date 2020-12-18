@@ -20,7 +20,7 @@ charNum = parseInt(prompt("How many characters would you like your password to b
 // If statements for validation
 if (!charNum){
   alert("You must enter a value!")
-} else if (charNum < 9 || charNum > 129) {
+} else if (charNum < 8 || charNum > 129) {
   charNum = alert("Minimum of 8 characters, maximum of 128 characters.");
   return;
 } 
