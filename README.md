@@ -2,7 +2,7 @@
 This is a random password generator that generates a password based on user input and preference. 
 
 ## Link to deployed application
-* [Deployed page](https://cgouge93.github.io/carlyGougePasswordGen/)
+* https://cgouge93.github.io/carlyGougePasswordGen
 ## How it works
 1. User clicks on "Generate Password" button to begin browser prompts. ![screenshot of application](assets/mainAppScreenShot.JPG)
 
