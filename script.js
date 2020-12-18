@@ -1,32 +1,32 @@
 // Setting up global variables
 var generateBtn = document.querySelector("#generate");
 var passwordTextArea = document.querySelector('#password');
-var numerical = getRandomNum();
-var upper = getRandomUpper();
-var lower = getRandomLower();
-var special = getRandomSpecial();
+const numerical = "0123456789";
+const upper = "ABCDEFGHIJKLMNOPQRSTUZWXYZ";
+const lower = "abcdefghijklmnopqrstuvwxyz";
+const special = "!#$%&'()*+,-./:;<=>?@[\]^_`{|}~";
 
 // Add event listener to generate button
 generateBtn.addEventListener("click", generatePassword);
 
 
 // Functions to generate characters for password
-function getRandomNum() {
-  return String.fromCharCode(Math.floor(Math.random() * 10) + 48)
-}
+// function getRandomNum() {
+//   return String.fromCharCode(Math.floor(Math.random() * 10) + 48)
+// }
 
-function getRandomUpper() {
-  return String.fromCharCode(Math.floor(Math.random() * 26) + 65)
-}
+// function getRandomUpper() {
+//   return String.fromCharCode(Math.floor(Math.random() * 26) + 65)
+// }
 
-function getRandomLower() {
-  return String.fromCharCode(Math.floor(Math.random() * 26) + 97)
-}
+// function getRandomLower() {
+//   return String.fromCharCode(Math.floor(Math.random() * 26) + 97)
+// }
 
-function getRandomSpecial() {
-  const special = '!@#$%^&*(){}[]=<>/,.';
-  return special[(Math.floor(Math.random() * special.length))]
-}
+// function getRandomSpecial() {
+//   const special = '!@#$%^&*(){}[]=<>/,.';
+//   return special[(Math.floor(Math.random() * special.length))]
+// }
 
 
 // Begin generate password function
